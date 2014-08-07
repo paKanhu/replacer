@@ -1,0 +1,217 @@
+/*!
+ * Replacer (http://paKanhu.github.io/replacer)
+ * Copyright 2014 Prasannajit Acharya - Kanhu
+ * Licensed under MIT (http://paKanhu.github.io/replacer/LICENSE.md)
+ */
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(../fonts/Ubuntu.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(../fonts/UbuntuMono.woff) format('woff');
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  color: black;
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  margin-bottom: 175px;
+  text-align: center;
+}
+footer {
+  background-color: gainsboro;
+  border-bottom-color: teal;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  bottom: 0;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 18px;
+  height: 175px;
+  position: absolute;
+  width: 100%;
+}
+footer > ul > li {
+  padding: 5px;
+}
+.page-heading {
+  background-color: gainsboro;
+  border-top-color: teal;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  border-top-style: solid;
+  border-top-width: 5px;
+  margin-bottom: 7px;
+}
+#heading-title {
+  font-size: 50px;
+  margin: 0;
+}
+#heading-tagline {
+  margin: 0;
+  font-size: 23px;
+}
+#heading {
+  color: black;
+}
+#heading:hover, #heading:focus {
+  color: teal;
+  text-decoration: none;
+}
+#main-container {
+  margin-top: 5px;
+}
+.panel-title {
+  font-size: 20px;
+}
+.custom-tab {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.nav-tabs > li > a {
+  color: black;
+}
+.checkbox input[type=checkbox] {
+  float: none;
+}
+.center-block {
+  float: none;
+}
+#replacement-text-list {
+  margin-top: 10px;
+  padding-left: 0px;
+}
+#replacement-text-list > li {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.form-control.btn-default,
+.form-control.btn-default:focus,
+.form-control.btn-default:active {
+  background-color: teal;
+  border-color: black;
+  color: white;
+  font-size: 16px;
+}
+.form-control.btn-default:focus {
+  border-style: dashed;
+  outline-color: teal;
+}
+.form-control.btn-default:hover {
+  background-color: gainsboro;
+  border-color: teal;
+  color: black;
+}
+textarea.form-control, input.form-control {
+  color: black;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  max-width: 100%;
+}
+textarea.form-control:focus, input[type=text]:focus {
+  border-color: rgba(0, 128, 128, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(0, 128, 128, 0.6);
+  outline: 0;
+}
+.modal-body {
+  text-align: justify;
+}
+.errorModal > div > div {
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+}
+.errorModal > div > div > div.modal-header {
+  color: red;
+}
+#replacement-text-list > li > div > div > label {
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#replacement-text-list > li > div > div > div {
+  padding-left: 5px;
+}
+#replacement-text-list > li > div > div {
+  margin: 0px;
+}
+#replacement-text-list > li > div > div > div > input {
+  color: black;
+}
+#replacement-text-list > li > div > div > div > input:focus {
+  border-color: rgba(0, 128, 128, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(0, 128, 128, 0.6);
+  outline: 0;
+}
+.nav-tabs.nav-justified > li {
+  border: 1px solid rgba(0, 128, 128, 1);
+  margin-bottom: 5px;
+  border-radius: 4px 4px 0px 0px;
+  background-color: rgba(0, 128, 128, 0.3);
+}
+.nav-tabs.nav-justified > li.active {
+  border-bottom: transparent;
+  background-color: transparent;
+}
+.nav-tabs.nav-justified > li > a {
+  margin: 0px;
+}
+.nav-tabs.nav-justified > li.active > a, .nav-tabs.nav-justified > li.active > a:hover, .nav-tabs.nav-justified > li.active > a:focus {
+  color: black;
+}
+.panel-default > .panel-heading {
+  background-image: linear-gradient(to bottom, teal 0, gainsboro 100%);
+  color: black;
+}
+.panel-title > a:hover, .panel-title > a:focus {
+  color: white;
+  text-decoration: none;
+}
+.modal {
+  overflow-y: auto;
+}
+.heading {
+  display: inline-block;
+  width: 225px;
+}
+:focus, a:focus {
+  outline-color: teal;
+}
+a {
+  color: teal;
+}
+a:hover, a:focus {
+  color: black;
+}
+.no-js #main-container, .no-js footer > ul, .js #no-js {
+  display: none;
+}
+.no-js body {
+  margin-bottom: 35px;
+}
+.no-js footer {
+  height: 35px;
+}
+#no-js {
+  margin: 40px;
+}
+#no-js-notice {
+  border-color: red;
+  border-style: double;
+  color: teal;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 23px;
+  padding: 10px;
+}
+#no-js-about {
+  padding: 10px;
+}

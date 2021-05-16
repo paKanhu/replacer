@@ -1,16 +1,16 @@
 {
   "name": "replacer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.5.0",
-    "grunt-contrib-compress": "^0.10.0",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-cssmin": "^0.10.0",
-    "grunt-contrib-htmlmin": "^0.3.0",
-    "grunt-contrib-uglify": "^0.5.0",
-    "grunt-gh-pages": "^0.9.1",
-    "grunt-processhtml": "^0.3.3",
-    "grunt-uncss": "^0.3.5"
+    "grunt": "^1.4.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-gh-pages": "^4.0.0",
+    "grunt-processhtml": "^0.3.2",
+    "grunt-uncss": "^0.8.6"
   }
 }
